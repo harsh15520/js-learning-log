@@ -47,3 +47,26 @@ function Animal(type, sound){
 //object creation
 const Dog= new Animal('Dog','woof');
 Dog.speak()
+//object at run time on the fly
+console.log('my',{age:18})
+function color(){
+    return {color:'yellow'};
+}
+console.log(color())
+//when we assign object-for multitime use; when we dont assign object:-single time use
+//2 objects with same context are still different=>obj1 &obj2 store at different locations in memory.
+var obj1={age:18}
+var obj2={age:18}
+if(obj1==obj2){//why false=>object are compared by (reference->where they lie in memory),not by value
+    console.log("contradict");
+}
+else{
+    console.log('different objects')
+}
+//interesting
+if(obj1=={age:18}){//{age:18} this is new obj created on fly.
+    console.log("both are same");
+}
+else{
+    console.log("{age:18},here is new obj,thus both are different object")
+}
