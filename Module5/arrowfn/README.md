@@ -19,3 +19,4 @@
    - Extract properties from objects
    - Rename variables during extraction
    - Syntax: `let { prop: newName } = object`
+![Screenshot 2025-06-25 123242](https://github.com/user-attachments/assets/37a19f8e-d7ce-4163-8ca1-2f1d31deafd9)
