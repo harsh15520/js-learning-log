@@ -25,3 +25,7 @@ else{
 }
 //Only 0 (number zero) is falsy.
 //All other numbers, strings (except empty string ""), objects, arrays, functions, etc., are truthy.
+function add(){
+    return 3+4
+}
+console.log(add(7,9))//even though no arguments use,still allowed
