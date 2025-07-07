@@ -1,0 +1,16 @@
+//checking a square of number is true or false
+//imperative way
+const number=2;//constant
+let isEven;//variable declaration
+//control flow-if,else
+if((number*number)%2===0){
+    isEven=true;
+}
+else{
+    isEven=false;
+}
+console.log(isEven)
+
+//declarative way=>functional programming
+let CheckForSquare=(x)=>((x*x)%2===0 ? true :false)//(?,:)=>are ternary operator
+console.log(CheckForSquare(3))
