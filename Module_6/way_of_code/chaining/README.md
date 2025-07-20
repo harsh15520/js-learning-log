@@ -8,10 +8,10 @@
 
 ## Key Concepts
 
-- **Method Chaining:** Calling multiple methods on the same object in a single statement for cleaner, more readable code[1][2][3][4][5].
-- **Custom Chaining:** Each method must return `this` (the current object) to allow further chaining[1][2][3][4].
-- **Built-in Chaining:** Array methods like `map`, `filter`, and `reduce` return arrays or values, allowing seamless chaining[3][5].
-- **Chaining in Classes:** Same principle—return `this` from each method[1][4].
+- **Method Chaining:** Calling multiple methods on the same object in a single statement for cleaner, more readable code.
+- **Custom Chaining:** Each method must return `this` (the current object) to allow further chaining.
+- **Built-in Chaining:** Array methods like `map`, `filter`, and `reduce` return arrays or values, allowing seamless chaining.
+- **Chaining in Classes:** Same principle—return `this` from each method.
 
 
 ## Best Practices
