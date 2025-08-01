@@ -26,3 +26,4 @@ Using classes makes code for object-oriented programming in JavaScript much clea
 - Practice with method overriding in child classes.
 - Explore private fields and methods (using `#` syntax in modern JS).
 - Refactor earlier constructor function code to use ES6 classes for comparison.
+<img width="1661" height="607" alt="Screenshot 2025-08-01 110847" src="https://github.com/user-attachments/assets/69dd7400-deb5-40d1-8541-15a142d94606" />
