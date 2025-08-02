@@ -19,7 +19,7 @@
 | hasOwnProperty         | Checks own vs inherited properties                               |
 
 - **Prototypes** allow memory efficiency (one function shared by all) and dynamic extensibility.
-- **Prototype Chain**: If a property/method isn’t found on the object, JS checks its prototype, then its prototype’s prototype, up to `Object.prototype`.<img width="1657" height="713" alt="Screenshot 2025-08-02 132433" src="https://github.com/user-attachments/assets/12dbbb90-fd9a-49c6-b5cf-16b654c190e3" />
+- **Prototype Chain**: If a property/method isn’t found on the object, JS checks its prototype, then its prototype’s prototype, up to `Object.prototype`.
 
 
 ## Code Samples
